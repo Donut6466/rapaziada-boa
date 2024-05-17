@@ -1,0 +1,160 @@
+{
+  "clientes": [
+    {
+      "logo": "https://th.bing.com/th/id/OIP.XJrJtv-x3D2CRxdGBHpUUQHaGZ?w=250&h=216&c=7&r=0&o=5&pid=1.7https://picsum.photos/200/200",
+      "nome": "Coca cola"
+    },
+    {
+      "logo": "https://th.bing.com/th/id/OIP.k7IyIjh8NgXAALKUIuDbVwHaEK?w=299&h=180&c=7&r=0&o=5&pid=1.7",
+      "nome": "Netflix"
+    },
+    {
+      "logo": "https://th.bing.com/th/id/OIP.vFMIQJbWoDGOIcjHyu16GAHaFj?w=222&h=180&c=7&r=0&o=5&pid=1.7",
+      "nome": "Nubank"
+    },
+    {
+      "logo": "https://images.samsung.com/is/image/samsung/assets/global/about-us/brand/logo/256_144_4.png?$512_N_PNG$",
+      "nome": "Samsung"
+    }
+  ],
+  "servicos": [
+    {
+      "nome": "Serviço 1",
+      "descricao": "Descrição do Serviço 1."
+    },
+    {
+      "nome": "Serviço 2",
+      "descricao": "Descrição do Serviço 2."
+    },
+    {
+      "nome": "Serviço 3",
+      "descricao": "Descrição do Serviço 3."
+    },
+    {
+      "nome": "Serviço 4",
+      "descricao": "Descrição do Serviço 4."
+    },
+    {
+      "nome": "Serviço 5",
+      "descricao": "Descrição do Serviço 5."
+    },
+    {
+      "nome": "Serviço 6",
+      "descricao": "Descrição do Serviço 6."
+    },
+    {
+      "nome": "Serviço 7",
+      "descricao": "Descrição do Serviço 7."
+    }
+  ],
+  "depoimentos": [
+    {
+      "nome": "João Silva",
+      "descricao": "Excelente serviço, estou muito satisfeito!",
+      "empresa": "Empresa X",
+      "foto": "https://picsum.photos/300/300?grayscale"
+    },
+    {
+      "nome": "Maria Oliveira",
+      "descricao": "Profissionais altamente qualificados, recomendo!",
+      "empresa": "Empresa Y",
+      "foto": "https://picsum.photos/300/300?grayscale"
+    },
+    {
+      "nome": "Pedro Santos",
+      "descricao": "Atendimento rápido e eficiente, ótimo trabalho!",
+      "empresa": "Empresa Z",
+      "foto": "https://picsum.photos/300/300?grayscale"
+    },
+    {
+      "nome": "Ana Pereira",
+      "descricao": "Superou minhas expectativas, parabéns!",
+      "empresa": "Empresa W",
+      "foto": "https://picsum.photos/300/300?grayscale"
+    },
+    {
+      "nome": "Lucas Oliveira",
+      "descricao": "Profissionais muito dedicados, serviço de qualidade!",
+      "empresa": "Empresa V",
+      "foto": "https://picsum.photos/300/300?grayscale"
+    },
+    {
+      "nome": "Fernanda Silva",
+      "descricao": "Serviço impecável, com certeza voltarei a contratar!",
+      "empresa": "Empresa U",
+      "foto": "https://picsum.photos/300/300?grayscale"
+    },
+    {
+      "nome": "Rafael Santos",
+      "descricao": "Equipe muito competente, recomendo a todos!",
+      "empresa": "Empresa T",
+      "foto": "https://picsum.photos/300/300?grayscale"
+    }
+  ],
+  "equipe": [
+    {
+      "nome": "João Oliveira",
+      "foto": "https://picsum.photos/300/300?grayscale",
+      "twitter": "https://twitter.com/joao",
+      "facebook": "https://facebook.com/joao",
+      "instagram": "https://instagram.com/joao",
+      "linkedin": "https://linkedin.com/joao"
+    },
+    {
+      "nome": "Maria Silva",
+      "foto": "https://picsum.photos/300/300?grayscale",
+      "twitter": "https://twitter.com/maria",
+      "facebook": "https://facebook.com/maria",
+      "instagram": "https://instagram.com/maria",
+      "linkedin": "https://linkedin.com/maria"
+    },
+    {
+      "nome": "Pedro Santos",
+      "foto": "https://picsum.photos/300/300?grayscale",
+      "twitter": "https://twitter.com/pedro",
+      "facebook": "https://facebook.com/pedro",
+      "instagram": "https://instagram.com/pedro",
+      "linkedin": "https://linkedin.com/pedro"
+    },
+    {
+      "nome": "Ana Oliveira",
+      "foto": "https://picsum.photos/300/300?grayscale",
+      "twitter": "https://twitter.com/ana",
+      "facebook": "https://facebook.com/ana",
+      "instagram": "https://instagram.com/ana",
+      "linkedin": "https://linkedin.com/ana"
+    },
+    {
+      "nome": "Lucas Silva",
+      "foto": "https://picsum.photos/300/300?grayscale",
+      "twitter": "https://twitter.com/lucas",
+      "facebook": "https://facebook.com/lucas",
+      "instagram": "https://instagram.com/lucas",
+      "linkedin": "https://linkedin.com/lucas"
+    },
+    {
+      "nome": "Fernanda Santos",
+      "foto": "https://picsum.photos/300/300?grayscale",
+      "twitter": "https://twitter.com/fernanda",
+      "facebook": "https://facebook.com/fernanda",
+      "instagram": "https://instagram.com/fernanda",
+      "linkedin": "https://linkedin.com/fernanda"
+    },
+    {
+      "nome": "Rafael Oliveira",
+      "foto": "https://picsum.photos/300/300?grayscale",
+      "twitter": "https://twitter.com/rafael",
+      "facebook": "https://facebook.com/rafael",
+      "instagram": "https://instagram.com/rafael",
+      "linkedin": "https://linkedin.com/rafael"
+    },
+    {
+      "nome": "Marcela Silva",
+      "foto": "https://picsum.photos/300/300?grayscale",
+      "twitter": "https://twitter.com/marcela",
+      "facebook": "https://facebook.com/marcela",
+      "instagram": "https://instagram.com/marcela",
+      "linkedin": "https://linkedin.com/marcela"
+    }
+  ]
+}

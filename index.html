@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-bs-theme="dark">
+	<head>
+		<!-- Meta Dados -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Importações Externas -->
+		<!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+		<!-- Fonte Nunito -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+		<!-- Fonte Iria -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@400;700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+		<!-- Ícones -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+		<!-- Importações Internas -->
+		<link rel="stylesheet" href="assets/style.css">
+		<script src="assets/app.js"></script>
+        <script src="assets/script.js"></script>
+		<link rel="shortcut icon" href="assets/imagens/pageicon.png" type="image/x-icon">
+		<!-- Título do Documento -->
+		<title>Fend2</title>
+	</head>
+	<body>
+		<!-- Header -->
+		<header>
+			<div class="container">
+				<div class="d-flex flex-wrap justify-content-center py-1 mb-1">
+					<a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+						<!-- Logo -->
+						<svg class="bi me-2" width="32" height="32"></svg>
+						<span class="fs-4">Fend2</span>
+					</a>
+					<!-- Nav -->
+					<nav>
+						<!-- Lista da Navegação -->
+						<ul class="nav nav-pills">
+							<li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Início</a></li>
+							<li class="nav-item"><a href="#SobreNos" class="nav-link">Sobre</a></li>
+							<li class="nav-item"><a href="#Servicos" class="nav-link">Serviços</a></li>
+							<li class="nav-item"><a href="#Portifolio" class="nav-link">Portifólio</a></li>
+							<li class="nav-item"><a href="#NossoTime" class="nav-link">Equipe</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<!-- Main -->
+		<main>
+			<!-- Hero -->
+			<div class="hero">
+				<div class="container col-xxl-8 px-4 py-5">
+					<div class="row flex-lg-row align-items-center g-5 py-5">
+						<div class="col-lg-6">
+							<!-- Título e Frase do Hero -->
+							<h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Bem Vindos à<br>Fend2</h1>
+							<p class="lead">Transformando ideias em inovação digital.<br>JS, HTML e CSS, somos o próximo passo para a evolução.</p>
+							<div class="d-grid gap-2 d-md-flex justify-content-md-start">
+								<!-- Botões do Hero -->
+								<a href="#Contato">
+								<button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Iniciar</button>
+								</a>
+								<a href="#DepoimentoClientes">
+								<button type="button" class="btn btn-outline-secondary btn-lg px-4">Clientes</button>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Sobre Nós -->
+			<section id="SobreNos" class="light">
+				<div class="container" id="containersobrenos">
+					<!-- Título da Sessão -->
+					<h2 class="border-bottom">Sobre Nós</h2>
+					<!-- Quem Somos -->
+					<div class="quemsomos">
+						<h4>Quem Somos</h4>
+						<p>Somos uma grande equipe de programadores e entusiastas das mais diversas áreas da tecnologia da informação.</p>
+						<p>Fazemos comissões de páginas web e aplicações mobile.</p>
+					</div>
+				</div>
+			</section>
+			<!-- Logos dos Clientes -->
+			<section id="PrincipaisClientes" class="light">
+				<div class="container">
+					<!-- Título da Sessão -->
+					<h2 class="border-bottom">Principais Clientes</h2>
+					<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+						<div class="carousel-inner">
+                            <!-- Cliente 1 -->
+							<div id="imagemcliente1" class="carousel-item active">
+								<svg id="jesus" class="bd-placeholder-img card-img-top" width="100%" height="300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+									<title id="titulocliente1">Placeholder</title>
+								</svg>
+							</div>
+                            <!-- Cliente 2 -->
+							<div class="carousel-item">
+								<svg id="imagemcliente2" class="bd-placeholder-img card-img-top" width="100%" height="300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+									<title id="titulocliente2">Placeholder</title>
+								</svg>
+							</div>
+                            <!-- Cliente 3 -->
+							<div class="carousel-item">
+								<svg id="imagemcliente3" class="bd-placeholder-img card-img-top" width="100%" height="300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+									<title id="titulocliente3">Placeholder</title>
+								</svg>
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+				</div>
+			</section>
+			<!-- Serviços -->
+			<section id="Servicos">
+				<div class="container">
+					<!-- Título da Sessão -->
+					<h2>Nossos Serviços</h2>
+					<ul class="list-unstyled">
+						<!-- Lista de Serviços -->
+						<!-- Serviço 1 -->
+						<li>
+							<!-- Link do Serviço -->
+							<a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+								<svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></svg>
+								<div class="col-lg-8">
+									<!-- Título de Serviço -->
+									<h6 class="mb-0">Desenvolvimento de Websites</h6>
+									<!-- Descrição Breve -->
+									<small class="text-body-secondary">Criação de websites personalizados, desde páginas simples a complexas plataformas de e-commerce.</small>
+								</div>
+							</a>
+						</li>
+						<!-- Serviço 2 -->
+						<li>
+							<!-- Link do Serviço -->
+							<a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+								<svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></svg>
+								<div class="col-lg-8">
+									<!-- Título de Serviço -->
+									<h6 class="mb-0">Desenvolvimento de Sistemas de Gestão:</h6>
+									<!-- Descrição Breve -->
+									<small class="text-body-secondary">Desenvolvimento de sistemas ERP (Enterprise Resource Planning),<br>CRM (Customer Relationship Management) e outras ferramentas de gestão empresarial.</small>
+								</div>
+							</a>
+						</li>
+						<!-- Serviço 3 -->
+						<li>
+							<!-- Link do Serviço -->
+							<a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+								<svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></svg>
+								<div class="col-lg-8">
+									<!-- Título de Serviço -->
+									<h6 class="mb-0">Consultoria em TI e Análise de Negócios</h6>
+									<!-- Descrição Breve -->
+									<small class="text-body-secondary">Análise das necessidades de TI do cliente e recomendação de soluções tecnológicas adequadas.</small>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<!-- Depoimento dos Clientes -->
+			<section id="DepoimentoClientes">
+				<div class="container">
+				<h2 class="border-bottom">Depoimento dos Clientes</h2>
+				<div class="clientes">
+					<!-- Cliente 1 -->
+					<div class="cliente" id="cliente1">
+						<!-- Ícone do Cliente -->
+						<div class="clienteicon">
+							<svg class="bd-placeholder-img rounded-circle" width="50" height="50" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+								<title>Placeholder</title>
+								<rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+							</svg>
+						</div>
+						<div class="nomedepoimento">
+							<!-- Nome do Cliente -->
+							<div class="clientenome">
+								Cliente 1
+							</div>
+							<!-- Depoimento do Cliente -->
+							<div class="clientedepoimento">
+								"Contratamos a Fend2 para desenvolver um software <br>personalizado que atendesse às nossas necessidades específicas de gestão de inventário. <br>Desde o início, a equipe se mostrou extremamente profissional e dedicada. O resultado final superou nossas expectativas, <br>com um sistema intuitivo e eficiente que transformou a forma como gerenciamos nossos estoques. Recomendo fortemente os serviços da [Nome da Empresa] para qualquer empresa que precise de soluções tecnológicas sob medida."
+								— João Silva, Diretor de Operações, Empresa XYZ
+							</div>
+						</div>
+					</div>
+					<!-- Cliente 2 -->
+					<div class="cliente" id="cliente2">
+						<!-- Ícone do Cliente -->
+						<div class="clienteicon">
+							<svg class="bd-placeholder-img rounded-circle" width="50" height="50" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+								<title>Placeholder</title>
+								<rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+							</svg>
+						</div>
+						<div class="nomedepoimento">
+							<!-- Nome do Cliente -->
+							<div class="clientenome">
+								Cliente 2
+							</div>
+							<!-- Depoimento do Cliente -->
+							<div class="clientedepoimento">
+								"Precisávamos de um aplicativo móvel robusto e amigável <br>para nossos clientes, e a Fend2 entregou exatamente isso. O processo de desenvolvimento foi transparente,<br> com comunicação constante e feedbacks rápidos. O aplicativo tem sido um grande sucesso entre nossos usuários,<br> e a equipe de suporte continua a nos impressionar com sua prontidão e eficiência. A Fend2 é, sem dúvida, a parceira ideal para projetos de desenvolvimento móvel."
+								— Maria Santos, Gerente de Marketing, Loja ABC
+							</div>
+						</div>
+					</div>
+					<!-- Cliente 3 -->
+					<div class="cliente" id="cliente3">
+						<!-- Ícone do Cliente -->
+						<div class="clienteicon">
+							<svg class="bd-placeholder-img rounded-circle" width="50" height="50" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+								<title>Placeholder</title>
+								<rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+							</svg>
+						</div>
+						<div class="nomedepoimento">
+							<!-- Nome do Cliente -->
+							<div class="clientenome">
+								Cliente 3
+							</div>
+							<!-- Depoimento do Cliente -->
+							<div class="clientedepoimento">
+								"Tínhamos vários sistemas legados que não se comunicavam bem entre si, causando muitos problemas operacionais.<br> A Fend2 veio com uma solução de integração que resolveu todos os nossos problemas e melhorou nossa produtividade.<br> Excelente trabalho!" - Rafael Lima, CTO da Empresa V.
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Portifólio -->
+			<section id="Portifolio">
+				<div class="container">
+					<!-- Título da Sessão -->
+					<h2 class="border-bottom">Portifólio de Serviços</h2>
+					<div class="albumportifolio">
+						<div class="album py-5 bg-body-tertiary">
+							<div class="container">
+								<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+									<!-- Card 1 -->
+									<div class="col">
+										<div class="card shadow-sm">
+											<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+												<title>Placeholder</title>
+											</svg>
+											<div class="card-body">
+												<p class="card-text">Esse serviço foi feito para o site OPQ.</p>
+												<div class="d-flex justify-content-between align-items-center">
+													<div class="btn-group">
+														<button type="button" class="btn btn-sm btn-outline-secondary">Detalhes</button>
+													</div>
+													<small class="text-body-secondary">01/01/2000</small>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Card 2 -->
+									<div class="col">
+										<div class="card shadow-sm">
+											<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+												<title>Placeholder</title>
+											</svg>
+											<div class="card-body">
+												<p class="card-text">Esse serviço foi feito para o site RST.</p>
+												<div class="d-flex justify-content-between align-items-center">
+													<div class="btn-group">
+														<button type="button" class="btn btn-sm btn-outline-secondary">Detalhes</button>
+													</div>
+													<small class="text-body-secondary">01/01/2000</small>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Card 3 -->
+									<div class="col">
+										<div class="card shadow-sm">
+											<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+												<title>Placeholder</title>
+											</svg>
+											<div class="card-body">
+												<p class="card-text">Esse serviço foi feito para o site MNO.</p>
+												<div class="d-flex justify-content-between align-items-center">
+													<div class="btn-group">
+														<button type="button" class="btn btn-sm btn-outline-secondary">Detalhes</button>
+													</div>
+													<small class="text-body-secondary">01/01/2000</small>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Card 4 -->
+									<div class="col">
+										<div class="card shadow-sm">
+											<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+												<title>Placeholder</title>
+											</svg>
+											<div class="card-body">
+												<p class="card-text">Esse serviço foi feito para o site DFG.</p>
+												<div class="d-flex justify-content-between align-items-center">
+													<div class="btn-group">
+														<button type="button" class="btn btn-sm btn-outline-secondary">Detalhes</button>
+													</div>
+													<small class="text-body-secondary">01/01/2000</small>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Card 5 -->
+									<div class="col">
+										<div class="card shadow-sm">
+											<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+												<title>Placeholder</title>
+											</svg>
+											<div class="card-body">
+												<p class="card-text">Esse serviço foi feito para o site ABC.</p>
+												<div class="d-flex justify-content-between align-items-center">
+													<div class="btn-group">
+														<button type="button" class="btn btn-sm btn-outline-secondary">Detalhes</button>
+													</div>
+													<small class="text-body-secondary">01/01/2000</small>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- Card 6 -->
+									<div class="col">
+										<div class="card shadow-sm">
+											<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+												<title>Placeholder</title>
+											</svg>
+											<div class="card-body">
+												<p class="card-text">Esse serviço foi feito para o site ZYX .</p>
+												<div class="d-flex justify-content-between align-items-center">
+													<div class="btn-group">
+														<button type="button" class="btn btn-sm btn-outline-secondary">Detalhes</button>
+													</div>
+													<small class="text-body-secondary">01/01/2000</small>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="NossoTime">
+				<div class="container">
+					<h2 class="border-bottom">Nossa Equipe</h2>
+					<div class="row">
+						<!-- Membro 1 -->
+						<div class="col-lg-4">
+							<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+								<title>Placeholder</title>
+								<rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+							</svg>
+							<h2 class="fw-normal">Sales</h2>
+							<p>Esse membro faz desenvolvimento de Software Personalizado</p>
+							<p><a class="btn btn-secondary" href="#">Ver Detalhes »</a></p>
+						</div>
+						<!-- Membro 2 -->
+						<div class="col-lg-4">
+							<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+								<title>Placeholder</title>
+								<rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+							</svg>
+							<h2 class="fw-normal">Pedro</h2>
+							<p>Esse membro faz desenvolvimento de Aplicativos Móveis</p>
+							<p><a class="btn btn-secondary" href="#">Ver Detalhes »</a></p>
+						</div>
+						<!-- Membro 3 -->
+						<div class="col-lg-4">
+							<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+								<title>Placeholder</title>
+								<rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+							</svg>
+							<h2 class="fw-normal">Maria</h2>
+							<p>Esse membro faz desenvolvimento de Websites</p>
+							<p><a class="btn btn-secondary" href="#">Ver Detalhes »</a></p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!-- Contato -->
+		<section id="Contato">
+			<div class="container">
+				<h2 class="border-bottom">Contato</h2>
+				<h6>Preencha informações de sua empresa e o motivo do contato</h6>
+				<form>
+					<div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Telefone</label>
+                        <input type="tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Endereço</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="input-group">
+                        <textarea class="form-control" aria-label="With textarea"></textarea>
+                    </div>
+					<div class="mb-3 form-check">
+						<input type="checkbox" class="form-check-input" id="exampleCheck1">
+						<label class="form-check-label" for="exampleCheck1">Não sou um robô</label>
+					</div>
+					<button type="submit" class="btn btn-primary">Enviar</button>
+				</form>
+			</div>
+		</section>
+		<footer class="py-3 my-4">
+			<ul class="nav justify-content-center border-bottom pb-3 mb-3">
+				<li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Início</a></li>
+				<li class="nav-item"><a href="#SobreNos" class="nav-link px-2 text-body-secondary">Sobre</a></li>
+				<li class="nav-item"><a href="#Servicos" class="nav-link px-2 text-body-secondary">Serviços</a></li>
+				<li class="nav-item"><a href="#Portifolio" class="nav-link px-2 text-body-secondary">Portifólio</a></li>
+				<li class="nav-item"><a href="#NossoTime" class="nav-link px-2 text-body-secondary">Equipe</a></li>
+			</ul>
+			<div class="container">
+			</div>
+			<p class="text-center text-body-secondary">Copyright © 2024 Fend2. – Todos os direitos reservados.</p>
+		</footer>
+        <button onclick="topFunction()" id="btop"><i class="bi bi-arrow-up"></i></button>
+	</body>
+</html>
